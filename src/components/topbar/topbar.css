@@ -1,0 +1,29 @@
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; /* so there will be no scroll bar*/
+}
+#main-header {
+  background-color: coral;
+  color: white;
+}
+
+#navbar {
+  background-color: rgb(2, 24, 46);
+  color: white;
+  height: 50px;
+}
+#navbar ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 15px;
+}
